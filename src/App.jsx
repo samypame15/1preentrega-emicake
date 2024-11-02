@@ -1,17 +1,18 @@
-import './App.css'
-import NavbarComponent  from './components/Navbarcomponet'
-import ItemListContainer from './components/ItemListContainer'
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavbarComponent from "./components/Navbarcomponet";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
-
   return (
-
-      <div>
-        <NavbarComponent></NavbarComponent>
-        <ItemListContainer greeting="Bienvenidos a la pasteleria y Reposteria Emicake" texto= "Ordenar Ahora"   />
-      </div>
-      
-  )
+    <div>
+      <NavbarComponent></NavbarComponent>
+      <ItemListContainer
+        greeting="Bienvenidos a la pasteleria y Reposteria Emicake"
+        texto="Ordenar Ahora"
+      />
+    </div>
+  );
 }
 
-export default App
+export default App;
