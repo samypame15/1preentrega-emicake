@@ -1,0 +1,57 @@
+.navContainer{
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(247, 172, 231);
+}
+
+.aLink{
+  color: rgb(81, 9, 89);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+  
+}
+
+.cartWidgeContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartIcon{
+width: 3rem;
+
+}
+
+.cartCounter{
+  color:rgb(56, 31, 81) ;
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+ 
+}
+
+.homeContent{
+  color: brown;
+  font-size: 1rem;
+  text-align: center;
+  
+}
+
+.homeContentimg{
+width: 100%;;
+height: 100%;
+position: relative;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+
+
